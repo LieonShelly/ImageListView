@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD93FA9222B78F1300083C63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FA9122B78F1300083C63 /* AppDelegate.swift */; };
-		CD93FA9422B78F1300083C63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FA9322B78F1300083C63 /* ViewController.swift */; };
-		CD93FA9722B78F1300083C63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD93FA9522B78F1300083C63 /* Main.storyboard */; };
-		CD93FA9922B78F1400083C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD93FA9822B78F1400083C63 /* Assets.xcassets */; };
-		CD93FA9C22B78F1400083C63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD93FA9A22B78F1400083C63 /* LaunchScreen.storyboard */; };
-		CD93FAA622B78F5700083C63 /* ImageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAA422B78F5700083C63 /* ImageListView.swift */; };
-		CD93FAA722B78F5700083C63 /* ImageBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAA522B78F5700083C63 /* ImageBrowser.swift */; };
-		CD93FAA922B78F8F00083C63 /* Extesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAA822B78F8F00083C63 /* Extesions.swift */; };
-		CD93FAAD22B7910A00083C63 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD93FAAC22B7910A00083C63 /* Kingfisher.framework */; };
-		CD93FAB122B7948F00083C63 /* ImageListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAAF22B7948F00083C63 /* ImageListTableViewCell.swift */; };
-		CD93FAB222B7948F00083C63 /* ImageListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD93FAB022B7948F00083C63 /* ImageListTableViewCell.xib */; };
+		CD9CA86122B79DB70039B00F /* ImageBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAA522B78F5700083C63 /* ImageBrowser.swift */; };
+		CD9CA86222B79DB70039B00F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FA9322B78F1300083C63 /* ViewController.swift */; };
+		CD9CA86322B79DB70039B00F /* Extesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAA822B78F8F00083C63 /* Extesions.swift */; };
+		CD9CA86422B79DB70039B00F /* ImageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAA422B78F5700083C63 /* ImageListView.swift */; };
+		CD9CA86522B79DB70039B00F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FA9122B78F1300083C63 /* AppDelegate.swift */; };
+		CD9CA86622B79DB70039B00F /* ImageListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAAF22B7948F00083C63 /* ImageListTableViewCell.swift */; };
+		CD9CA86822B79DB70039B00F /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD93FAAC22B7910A00083C63 /* Kingfisher.framework */; };
+		CD9CA86A22B79DB70039B00F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD93FA9A22B78F1400083C63 /* LaunchScreen.storyboard */; };
+		CD9CA86B22B79DB70039B00F /* ImageListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD93FAB022B7948F00083C63 /* ImageListTableViewCell.xib */; };
+		CD9CA86C22B79DB70039B00F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD93FA9822B78F1400083C63 /* Assets.xcassets */; };
+		CD9CA86D22B79DB70039B00F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD93FA9522B78F1300083C63 /* Main.storyboard */; };
+		CD9CA87D22B79E440039B00F /* ImageListView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9CA87B22B79E440039B00F /* ImageListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD9CA88022B79E440039B00F /* ImageListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9CA87922B79E440039B00F /* ImageListView.framework */; };
+		CD9CA88122B79E440039B00F /* ImageListView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD9CA87922B79E440039B00F /* ImageListView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD9CA88622B79E510039B00F /* ImageBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAA522B78F5700083C63 /* ImageBrowser.swift */; };
+		CD9CA88722B79E510039B00F /* ImageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAA422B78F5700083C63 /* ImageListView.swift */; };
+		CD9CA88822B79E510039B00F /* Extesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAA822B78F8F00083C63 /* Extesions.swift */; };
+		CD9CA88A22B79F730039B00F /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD93FAAC22B7910A00083C63 /* Kingfisher.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CD9CA87E22B79E440039B00F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD93FA8622B78F1300083C63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9CA87822B79E440039B00F;
+			remoteInfo = ImageListView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD9CA88522B79E440039B00F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD9CA88122B79E440039B00F /* ImageListView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		CD93FA8E22B78F1300083C63 /* ImageListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD93FA9122B78F1300083C63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD93FA9322B78F1300083C63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD93FA9622B78F1300083C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,14 +64,28 @@
 		CD93FAAC22B7910A00083C63 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		CD93FAAF22B7948F00083C63 /* ImageListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListTableViewCell.swift; sourceTree = "<group>"; };
 		CD93FAB022B7948F00083C63 /* ImageListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageListTableViewCell.xib; sourceTree = "<group>"; };
+		CD9CA87222B79DB70039B00F /* ImageListViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageListViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9CA87322B79DB70039B00F /* ImageListView copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ImageListView copy-Info.plist"; path = "/Users/lieon/Desktop/Demo/ImageListView/ImageListView copy-Info.plist"; sourceTree = "<absolute>"; };
+		CD9CA87922B79E440039B00F /* ImageListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9CA87B22B79E440039B00F /* ImageListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageListView.h; sourceTree = "<group>"; };
+		CD9CA87C22B79E440039B00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CD93FA8B22B78F1300083C63 /* Frameworks */ = {
+		CD9CA86722B79DB70039B00F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD93FAAD22B7910A00083C63 /* Kingfisher.framework in Frameworks */,
+				CD9CA86822B79DB70039B00F /* Kingfisher.framework in Frameworks */,
+				CD9CA88022B79E440039B00F /* ImageListView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9CA87622B79E440039B00F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9CA88A22B79F730039B00F /* Kingfisher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,15 +97,18 @@
 			children = (
 				CD93FA9122B78F1300083C63 /* AppDelegate.swift */,
 				CD93FA9022B78F1300083C63 /* ImageListView */,
+				CD9CA87A22B79E440039B00F /* ImageListView */,
 				CD93FA8F22B78F1300083C63 /* Products */,
 				CD93FAAB22B7910A00083C63 /* Frameworks */,
+				CD9CA87322B79DB70039B00F /* ImageListView copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		CD93FA8F22B78F1300083C63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD93FA8E22B78F1300083C63 /* ImageListView.app */,
+				CD9CA87222B79DB70039B00F /* ImageListViewDemo.app */,
+				CD9CA87922B79E440039B00F /* ImageListView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,17 +154,58 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		CD9CA87A22B79E440039B00F /* ImageListView */ = {
+			isa = PBXGroup;
+			children = (
+				CD9CA87B22B79E440039B00F /* ImageListView.h */,
+				CD9CA87C22B79E440039B00F /* Info.plist */,
+			);
+			path = ImageListView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		CD9CA87422B79E440039B00F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9CA87D22B79E440039B00F /* ImageListView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		CD93FA8D22B78F1300083C63 /* ImageListView */ = {
+		CD9CA85F22B79DB70039B00F /* ImageListViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD93FAA022B78F1400083C63 /* Build configuration list for PBXNativeTarget "ImageListView" */;
+			buildConfigurationList = CD9CA86F22B79DB70039B00F /* Build configuration list for PBXNativeTarget "ImageListViewDemo" */;
 			buildPhases = (
-				CD93FA8A22B78F1300083C63 /* Sources */,
-				CD93FA8B22B78F1300083C63 /* Frameworks */,
-				CD93FA8C22B78F1300083C63 /* Resources */,
-				CD93FAAA22B790A100083C63 /* ShellScript */,
+				CD9CA86022B79DB70039B00F /* Sources */,
+				CD9CA86722B79DB70039B00F /* Frameworks */,
+				CD9CA86922B79DB70039B00F /* Resources */,
+				CD9CA86E22B79DB70039B00F /* ShellScript */,
+				CD9CA88522B79E440039B00F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9CA87F22B79E440039B00F /* PBXTargetDependency */,
+			);
+			name = ImageListViewDemo;
+			productName = ImageListView;
+			productReference = CD9CA87222B79DB70039B00F /* ImageListViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9CA87822B79E440039B00F /* ImageListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9CA88222B79E440039B00F /* Build configuration list for PBXNativeTarget "ImageListView" */;
+			buildPhases = (
+				CD9CA87422B79E440039B00F /* Headers */,
+				CD9CA87522B79E440039B00F /* Sources */,
+				CD9CA87622B79E440039B00F /* Frameworks */,
+				CD9CA87722B79E440039B00F /* Resources */,
+				CD9CA88922B79EA60039B00F /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -125,8 +213,8 @@
 			);
 			name = ImageListView;
 			productName = ImageListView;
-			productReference = CD93FA8E22B78F1300083C63 /* ImageListView.app */;
-			productType = "com.apple.product-type.application";
+			productReference = CD9CA87922B79E440039B00F /* ImageListView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -138,7 +226,7 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = lieon;
 				TargetAttributes = {
-					CD93FA8D22B78F1300083C63 = {
+					CD9CA87822B79E440039B00F = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -156,27 +244,35 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD93FA8D22B78F1300083C63 /* ImageListView */,
+				CD9CA85F22B79DB70039B00F /* ImageListViewDemo */,
+				CD9CA87822B79E440039B00F /* ImageListView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CD93FA8C22B78F1300083C63 /* Resources */ = {
+		CD9CA86922B79DB70039B00F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD93FA9C22B78F1400083C63 /* LaunchScreen.storyboard in Resources */,
-				CD93FAB222B7948F00083C63 /* ImageListTableViewCell.xib in Resources */,
-				CD93FA9922B78F1400083C63 /* Assets.xcassets in Resources */,
-				CD93FA9722B78F1300083C63 /* Main.storyboard in Resources */,
+				CD9CA86A22B79DB70039B00F /* LaunchScreen.storyboard in Resources */,
+				CD9CA86B22B79DB70039B00F /* ImageListTableViewCell.xib in Resources */,
+				CD9CA86C22B79DB70039B00F /* Assets.xcassets in Resources */,
+				CD9CA86D22B79DB70039B00F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9CA87722B79E440039B00F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		CD93FAAA22B790A100083C63 /* ShellScript */ = {
+		CD9CA86E22B79DB70039B00F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,23 +290,60 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
+		CD9CA88922B79EA60039B00F /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CD93FA8A22B78F1300083C63 /* Sources */ = {
+		CD9CA86022B79DB70039B00F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD93FAA722B78F5700083C63 /* ImageBrowser.swift in Sources */,
-				CD93FA9422B78F1300083C63 /* ViewController.swift in Sources */,
-				CD93FAA922B78F8F00083C63 /* Extesions.swift in Sources */,
-				CD93FAA622B78F5700083C63 /* ImageListView.swift in Sources */,
-				CD93FA9222B78F1300083C63 /* AppDelegate.swift in Sources */,
-				CD93FAB122B7948F00083C63 /* ImageListTableViewCell.swift in Sources */,
+				CD9CA86122B79DB70039B00F /* ImageBrowser.swift in Sources */,
+				CD9CA86222B79DB70039B00F /* ViewController.swift in Sources */,
+				CD9CA86322B79DB70039B00F /* Extesions.swift in Sources */,
+				CD9CA86422B79DB70039B00F /* ImageListView.swift in Sources */,
+				CD9CA86522B79DB70039B00F /* AppDelegate.swift in Sources */,
+				CD9CA86622B79DB70039B00F /* ImageListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9CA87522B79E440039B00F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9CA88622B79E510039B00F /* ImageBrowser.swift in Sources */,
+				CD9CA88722B79E510039B00F /* ImageListView.swift in Sources */,
+				CD9CA88822B79E510039B00F /* Extesions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9CA87F22B79E440039B00F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9CA87822B79E440039B00F /* ImageListView */;
+			targetProxy = CD9CA87E22B79E440039B00F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CD93FA9522B78F1300083C63 /* Main.storyboard */ = {
@@ -348,45 +481,109 @@
 			};
 			name = Release;
 		};
-		CD93FAA122B78F1400083C63 /* Debug */ = {
+		CD9CA87022B79DB70039B00F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = ImageListView/Info.plist;
+				INFOPLIST_FILE = "ImageListView copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ImageListView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImageListViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CD93FAA222B78F1400083C63 /* Release */ = {
+		CD9CA87122B79DB70039B00F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = ImageListView/Info.plist;
+				INFOPLIST_FILE = "ImageListView copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ImageListView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImageListViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD9CA88322B79E440039B00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ImageListView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImageListView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD9CA88422B79E440039B00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ImageListView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImageListView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -402,11 +599,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD93FAA022B78F1400083C63 /* Build configuration list for PBXNativeTarget "ImageListView" */ = {
+		CD9CA86F22B79DB70039B00F /* Build configuration list for PBXNativeTarget "ImageListViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD93FAA122B78F1400083C63 /* Debug */,
-				CD93FAA222B78F1400083C63 /* Release */,
+				CD9CA87022B79DB70039B00F /* Debug */,
+				CD9CA87122B79DB70039B00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9CA88222B79E440039B00F /* Build configuration list for PBXNativeTarget "ImageListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9CA88322B79E440039B00F /* Debug */,
+				CD9CA88422B79E440039B00F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD93FA8D22B78F1300083C63"
-               BuildableName = "ImageListView.app"
-               BlueprintName = "ImageListView"
+               BlueprintIdentifier = "CD9CA85F22B79DB70039B00F"
+               BuildableName = "ImageListViewDemo.app"
+               BlueprintName = "ImageListViewDemo"
                ReferencedContainer = "container:ImageListView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD93FA8D22B78F1300083C63"
-            BuildableName = "ImageListView.app"
-            BlueprintName = "ImageListView"
+            BlueprintIdentifier = "CD9CA85F22B79DB70039B00F"
+            BuildableName = "ImageListViewDemo.app"
+            BlueprintName = "ImageListViewDemo"
             ReferencedContainer = "container:ImageListView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD93FA8D22B78F1300083C63"
-            BuildableName = "ImageListView.app"
-            BlueprintName = "ImageListView"
+            BlueprintIdentifier = "CD9CA85F22B79DB70039B00F"
+            BuildableName = "ImageListViewDemo.app"
+            BlueprintName = "ImageListViewDemo"
             ReferencedContainer = "container:ImageListView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD93FA8D22B78F1300083C63"
-            BuildableName = "ImageListView.app"
-            BlueprintName = "ImageListView"
+            BlueprintIdentifier = "CD9CA85F22B79DB70039B00F"
+            BuildableName = "ImageListViewDemo.app"
+            BlueprintName = "ImageListViewDemo"
             ReferencedContainer = "container:ImageListView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

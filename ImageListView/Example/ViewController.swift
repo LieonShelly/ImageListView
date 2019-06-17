@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ImageListView
 
 class ViewController: UIViewController {
 
