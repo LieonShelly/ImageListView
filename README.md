@@ -11,7 +11,7 @@
 
 ### Example
 ```Swift
-	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "ImageListTableViewCell", for: indexPath)  as? ImageListTableViewCell else {
             return UITableViewCell()
         }
@@ -25,6 +25,7 @@
     }
     
 ```
+
 ### Installation
 
 ```
