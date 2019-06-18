@@ -6,7 +6,7 @@
 
 ### Enviroment
 
-- XCode 10.1
+- Xcode 10.1
 - Swift 4.2
 
 ### Example
