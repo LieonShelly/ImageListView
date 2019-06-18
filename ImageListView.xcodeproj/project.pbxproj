@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD928DBF22B8BCAB00BBD341 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD93FAAC22B7910A00083C63 /* Kingfisher.framework */; };
+		CD928DC022B8BCAB00BBD341 /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD93FAAC22B7910A00083C63 /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CD9CA86122B79DB70039B00F /* ImageBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAA522B78F5700083C63 /* ImageBrowser.swift */; };
 		CD9CA86222B79DB70039B00F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FA9322B78F1300083C63 /* ViewController.swift */; };
 		CD9CA86322B79DB70039B00F /* Extesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAA822B78F8F00083C63 /* Extesions.swift */; };
 		CD9CA86422B79DB70039B00F /* ImageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAA422B78F5700083C63 /* ImageListView.swift */; };
 		CD9CA86522B79DB70039B00F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FA9122B78F1300083C63 /* AppDelegate.swift */; };
 		CD9CA86622B79DB70039B00F /* ImageListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93FAAF22B7948F00083C63 /* ImageListTableViewCell.swift */; };
-		CD9CA86822B79DB70039B00F /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD93FAAC22B7910A00083C63 /* Kingfisher.framework */; };
 		CD9CA86A22B79DB70039B00F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD93FA9A22B78F1400083C63 /* LaunchScreen.storyboard */; };
 		CD9CA86B22B79DB70039B00F /* ImageListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD93FAB022B7948F00083C63 /* ImageListTableViewCell.xib */; };
 		CD9CA86C22B79DB70039B00F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD93FA9822B78F1400083C63 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				CD928DC022B8BCAB00BBD341 /* Kingfisher.framework in Embed Frameworks */,
 				CD9CA88122B79E440039B00F /* ImageListView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -76,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD9CA86822B79DB70039B00F /* Kingfisher.framework in Frameworks */,
+				CD928DBF22B8BCAB00BBD341 /* Kingfisher.framework in Frameworks */,
 				CD9CA88022B79E440039B00F /* ImageListView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

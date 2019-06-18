@@ -8,6 +8,7 @@
 
 import UIKit
 import ImageListView
+import Kingfisher
 
 class ViewController: UIViewController {
 
@@ -19,7 +20,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let urlStrs: [String] =
             [
-                "https://thoughtworks-mobile-2018.herokuapp.com/images/tweets/007.jpeg",
                 "https://thoughtworks-mobile-2018.herokuapp.com/images/tweets/008.jpeg",
                 "https://thoughtworks-mobile-2018.herokuapp.com/images/tweets/009.jpeg",
                 "https://thoughtworks-mobile-2018.herokuapp.com/images/tweets/010.jpeg",
@@ -28,8 +28,8 @@ class ViewController: UIViewController {
                 "https://thoughtworks-mobile-2018.herokuapp.com/images/tweets/016.jpeg",
                 "https://thoughtworks-mobile-2018.herokuapp.com/images/tweets/016.jpeg",
                 "https://thoughtworks-mobile-2018.herokuapp.com/images/tweets/017.jpeg",
-                "https://thoughtworks-mobile-2018.herokuapp.com/images/tweets/018.jpeg",
-                "https://thoughtworks-mobile-2018.herokuapp.com/images/tweets/019.jpeg",
+                "https://thoughtworks-mobile-2018.herokuapp.com/images/tweets/008.jpeg",
+                "https://thoughtworks-mobile-2018.herokuapp.com/images/tweets/003.jpeg",
                 "https://thoughtworks-mobile-2018.herokuapp.com/images/tweets/020.jpeg",
                 "https://thoughtworks-mobile-2018.herokuapp.com/images/tweets/021.jpeg",
                 "https://thoughtworks-mobile-2018.herokuapp.com/images/tweets/001.jpeg",
@@ -55,7 +55,9 @@ extension ViewController: UITableViewDataSource {
             return UITableViewCell()
         }
         let urls = dataList[indexPath.row]
-        cell.imageListView.config(urls)
+        cell.imageListView.config(urls.count, fetchImageHandler: { imageView, index in
+            imageView?.kf.setImage(with: urls[index])
+        })
         cell.selectionStyle = .none
         cell.label.text = "Swift New Balance:\(indexPath.row)"
         return cell

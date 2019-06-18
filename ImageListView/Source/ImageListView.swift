@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Kingfisher
 
 @IBDesignable
 class ImageListView: UIView {
@@ -18,7 +17,7 @@ class ImageListView: UIView {
         static let width: CGFloat = UIScreen.main.bounds.width - 10 - 10 - 10 - 40
     }
     
-    var urls: [URL] = []
+    var imageCount: Int = 0
     fileprivate lazy var imageViewArray: [CanTapImageView] = []
     fileprivate lazy var imageBrowser: ImageBrowser = {
         let imageBrowser = ImageBrowser()
@@ -50,10 +49,9 @@ class ImageListView: UIView {
         imageBrowser.frame = UIScreen.main.bounds
     }
     
-    func config(_ data: [URL]) {
-        urls = data
+    func config(_ imageCount: Int, fetchImageHandler: ((UIImageView?, Int) -> Void)?) {
         imageViewArray.forEach { $0.isHidden = true}
-        let imageCount = data.count
+        self.imageCount = imageCount
         if imageCount == 0 {
             frame.size = .zero
             return
@@ -78,10 +76,7 @@ class ImageListView: UIView {
             lastImageView =  viewWithTag(1000 + index) as? UIImageView
             lastImageView?.isHidden = false
             lastImageView?.frame = frame
-            lastImageView?.kf.setImage(with: data[index], options: [                                                .transition(.fade(1)),
-                                                                                                                   .cacheOriginalImage], completionHandler: { (result) in
-                                                                                                                    
-            })
+            fetchImageHandler?(lastImageView, index)
             self.frame.size.width = UISize.width
             self.frame.size.height = lastImageView?.frame.maxY ?? 0
         }
@@ -113,6 +108,9 @@ class ImageListView: UIView {
 
 extension ImageListView {
     fileprivate func didTapSmallImage(_ imageView: CanTapImageView) {
+        if imageView.image == nil {
+            return
+        }
         let window = UIApplication.shared.keyWindow
         window?.addSubview(imageBrowser)
         window?.bringSubviewToFront(imageBrowser)
@@ -120,7 +118,7 @@ extension ImageListView {
             subView.removeFromSuperview()
         }
         let imageViewIndex = imageView.tag - 1000
-        let count = urls.count
+        let count = self.imageCount
         var convertRect: CGRect?
         if count == 1 {
             imageBrowser.pageControl.isHidden = true
