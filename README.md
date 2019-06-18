@@ -4,15 +4,14 @@
 
 ![Alt text](Files/screen_shot.gif)
 
-### Enviroment
+### Environment
 
 - Xcode 10.1
 - Swift 4.2
 
 ### Example
-```
-
-  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+```Swift
+	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "ImageListTableViewCell", for: indexPath)  as? ImageListTableViewCell else {
             return UITableViewCell()
         }
